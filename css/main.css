@@ -913,6 +913,24 @@ ul.list-default li {
 	border: none;
 	border: #e0e0e0 1px solid;
 }
+button.map{
+	background: #db4766;
+	color: #fff;
+	margin-top: 30px;
+	padding:15px 30px 15px 30px;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 5px;
+	border: 0;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+button.map a{
+	color: #fff;
+}
 .conForm .submitBnt {
 	background: #db4766;
 	color: #fff;
@@ -950,7 +968,7 @@ ul.list-default li {
 /* ------------------------------------------------------------------------------
 	 Footer
 -------------------------------------------------------------------------------*/
-.footer {
+/* .footer {
 	text-align: left;
 }
 .footer-top {
@@ -995,4 +1013,67 @@ ul.list-default li {
 	color: #e84545;
 	font-size: 11px;
 	margin: 0 2px;
+} */
+/* footer */
+.footer
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+	background: #db4766;
+	height: 30vh;
+	width: 100vw;
+	position: relative;
+}
+
+.footer .content h3
+{
+	color: #fff;
+	text-align: center;
+}
+
+.footer .content p 
+{
+	font-size: 1rem;
+	color: #fff;
+	text-align: center;
+}
+.footer .content h3 span,
+.footer .content p span 
+{
+	color: #000;
+}
+
+.footer .link 
+{
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	flex-direction: row;
+
+
+}
+.footer .link .content i
+{
+	color: rgba(225, 225, 225, 0.8);
+}
+.footer .link .content a
+{
+	color: rgba(225, 225, 225, 0.9);
+	padding: 0.7rem;
+	font-size: 1rem;
+	transition: 0.5s;
+	border-bottom: none;
+}
+.footer .link .content a:hover
+{
+	color: #fff;
+}
+
+.footer img{
+	width: 20px;
+	height: 20px;
+
 }
